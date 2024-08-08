@@ -91,22 +91,43 @@
 //##Atividade 05
 
          
-    let armas = ["canhão de plasma", "bomba", "laminas", "lança chamas", "misseis"];
+   // let armas = ["canhão de plasma", "bomba", "laminas", "lança chamas", "misseis"];
      
-    let ataques = [];
+    //let ataques = [];
 
-    ataques.push("Walle-e");
-    ataques.push(armas[5]);
-    ataques.push(armas[3]);
-    ataques.push(armas[4]);
-    ataques.push(armas[4]);
+   // ataques.push("Walle-e");
+    //ataques.push(armas[5]);
+    //ataques.push(armas[3]);
+    //ataques.push(armas[4]);
+    //ataques.push(armas[4]);
 
-    for (let i = 0; i < ataques.length; i++) {
-        if (i == 0) {
-            console.log(`Nome do Robô: ${ataques[i]}`);
-        }else{
-            console.log(`Ataque: ${i}: ${ataques[i]}`);
-        }
-    }
+    //for (let i = 0; i < ataques.length; i++) {
+       // if (i == 0) {
+        //    console.log(`Nome do Robô: ${ataques[i]}`);
+        //}else{
+          //  console.log(`Ataque: ${i}: ${ataques[i]}`);
+       // }
+    //}
+
+   // ## Atividade 06
+
+   let MetaLivros = 5;
+
+   let livrosLidos = ["É  assim que acaba", "Harry Potter - cálice de fogo", "A moreninha", "Revolução dos bichos"];
+   let metaLivros = 5;
+   
+   console.log("Parabéns!");
+       for (let i = 0; i <livrosLidos.length; i++){
+           console.log(`- ${livrosLidos[i]}`);
+       }
+   
+       if (livrosLidos.length >= metaLivros){
+           console.log("Parabéns! Você atingiu sua meta de leitura!");
+       }else { console.log (`Você está progredindo! Faltam ${metaLivros - livrosLidos.length} livros para atingir sua meta.`);
+   }
+
+   
+
+
 
 
