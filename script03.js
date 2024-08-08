@@ -9,7 +9,7 @@
 // console.log("Não Permitido!");
 //}
 
-//Atividade 2
+//Atividade 02
 
 //let quantidadedeIngresos = 9;
 
@@ -30,7 +30,7 @@
 
 
 
-//Atividade 3
+//Atividade 03
 
 
 //let idadeMinima = 7;
@@ -67,22 +67,46 @@
 //}
 //}
 
+//##Atividade 04
+
+//let paes = ["Pão Australiano", "Pão Brioche🍔", "Pão de Gergelim"];
+//let molhos = ["Maionese", "Ketchup", "Mostarda", "Barbecue"];
+//let saladas = ["Alface", "Tomate", "Cebola", "Picles"];
+//let carnes = ["Carne Bovina", "Frango Grelhado", "Veggie Burger"];
+//let queijos = ["Cheddar", "Mussarela", "Prato", "Gorgonzola"];
+
+//let hamburguer = [];
+
+//hamburguer.push(paes[1]);
+//hamburguer.push(molhos[0]);
+//hamburguer.push(saladas[1]);
+//hamburguer.push(carnes[1]);
+//hamburguer.push(queijos[2]);
 
 
-let paes = ["Pão Australiano", "Pão Brioche🍔", "Pão de Gergelim"];
-let molhos = ["Maionese", "Ketchup", "Mostarda", "Barbecue"];
-let saladas = ["Alface", "Tomate", "Cebola", "Picles"];
-let carnes = ["Carne Bovina", "Frango Grelhado", "Veggie Burger"];
-let queijos = ["Cheddar", "Mussarela", "Prato", "Gorgonzola"];
+//for (let i = 0; i < hamburguer.length; i++){ //primeiro passo do for é o "i"
+   // console.log(hamburguer[i]);
+//} 
 
-let hamburguer = [];
+//##Atividade 05
 
-hamburguer.push(paes[1]);
-hamburguer.push(molhos[0]);
-hamburguer.push(saladas[1]);
-hamburguer.push(carnes[1]);
-hamburguer.push(queijos[2]);
+         
+    let armas = ["canhão de plasma", "bomba", "laminas", "lança chamas", "misseis"];
+     
+    let ataques = [];
 
-for (let i = 0; i < hamburguer.length; i++){ //primeiro passo do for é o "i"
-    console.log(hamburguer[i]);
-} 
+    ataques.push("Walle-e");
+    ataques.push(armas[5]);
+    ataques.push(armas[3]);
+    ataques.push(armas[4]);
+    ataques.push(armas[4]);
+
+    for (let i = 0; i < ataques.length; i++) {
+        if (i == 0) {
+            console.log(`Nome do Robô: ${ataques[i]}`);
+        }else{
+            console.log(`Ataque: ${i}: ${ataques[i]}`);
+        }
+    }
+
+
